@@ -75,8 +75,8 @@ https://genius.com/artists/Thundercat
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/genius1.png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/genius2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon1)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon2)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon2.png)
 
 
 
