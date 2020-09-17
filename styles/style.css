@@ -1,5 +1,74 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#intro {
+    position: fixed;
+    background-color: #ffff64;
+    top: 0;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+#intro img{
+    max-width: 20%;
+}
+
+nav ul {
+    position: fixed;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    top: 16px;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+
+nav li {
+    padding: 10px;
+}
+
+
+main {
+    margin: 2.5em
+}
+
+
+footer{
+    padding: 2.5em;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer h1{
+
+}
+
+footer ul{
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+footer img{
+    width:50;
+    height:50px;
+    padding: 10px;
+}
+
+footer p {display: flex}
