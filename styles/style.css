@@ -10,28 +10,34 @@ body {
     font-family: sans-serif;
 }
 
+/*header*/
 #intro {
     position: fixed;
     background-color: #ffff64;
     top: 0;
-    display:flex;
+    padding: 5px;
+    display: flex;
     justify-content: space-around;
-    width:100%;
+    width: 100%;
+    align-items: center
 }
 
-#intro img{
-    max-width: 20%;
+#intro img {
+    width: 50%
 }
+
+#intro input {}
 
 nav ul {
     position: fixed;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    top: 16px;
+    top: 28px;
     background-color: black;
     color: white;
     width: 100%;
+    padding-left: 0;
 
 }
 
@@ -39,13 +45,206 @@ nav li {
     padding: 10px;
 }
 
-
+/*main*/
 main {
     margin: 2.5em
 }
 
+/*liedje*/
+#liedje {
+    display: grid;
+    grid-auto-columns: 14em 15fr;
+    background: rgb(226, 200, 115);
+    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+    padding-top: 30px
+}
 
-footer{
+#liedje p {
+    grid-column-start: 2
+}
+
+#liedje a {
+    grid-column-start: 2
+}
+
+#liedje img {
+    display: block;
+    position: relative;
+    right: 1em;
+    max-width: 13em;
+    min-height: 1em;
+    top: 3em;
+    border: solid .25em white;
+}
+
+#songtekst p {
+    padding-left: 25%;
+    padding-right: 25%
+}
+
+#about-liedje {
+    background: rgb(226, 200, 115);
+    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+}
+
+#tracklist {
+    background: rgb(226, 200, 115);
+    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+    align-content: center
+}
+
+#tracklist img {
+    display: block;
+    text-align: center;
+    width: 20%
+}
+
+#credits {
+    background: rgb(226, 200, 115);
+    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+}
+
+#comments {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#comments img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right:10px
+}
+
+.commentgebruiker {
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+/*artiest*/
+#artiest {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 225), rgba(0, 0, 0, 0)) fixed, url(../images/artiest/thundercat.jpg);
+}
+
+#artiest {
+    color: white;
+    padding-bottom: 10px;
+        margin-bottom: 20px
+}
+
+#artiest img {
+    width: 15em;
+    margin-top: 3em;
+    border: solid .25em white;
+    border-radius: 100% 100% 100% 100%
+}
+
+#liedjes ul {
+    list-style-type: none;
+    width: 500px;
+    padding-left: 0
+}
+
+
+#liedjes li img {
+    margin: 10px;
+    width: 100px
+}
+
+#liedjes li {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#liedjes li:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#albums ul {
+    list-style-type: none;
+    width: 500px;
+    display: flex;
+    padding-left: 0;
+}
+
+#albums ul {
+    flex-wrap: wrap
+}
+
+#albums li img {
+    margin: 10px;
+    width: 100px
+}
+
+
+#albums li {
+    padding: 10px;
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1
+}
+
+#albums li:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#scholars ul {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0
+}
+
+#scholars li {
+    padding: 10px;
+}
+
+#scholars li p {
+    padding: 120px
+}
+
+#scholars img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#buttons {
+    display: flex;
+}
+
+#buttons a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 10px;
+    background: #3B5998;
+    color: white;
+}
+
+#buttons a:first-of-type {
+    background-color: #3B5998
+}
+
+#buttons a:nth-child(2) {
+    background-color: #55ACEE;
+}
+
+#buttons a:last-of-type {
+    background-color: black
+}
+
+
+/*footer*/
+footer {
     padding: 2.5em;
     color: white;
     background-color: black;
@@ -54,21 +253,17 @@ footer{
 
 }
 
-footer h1{
+footer h1 {}
 
-}
-
-footer ul{
+footer ul {
     list-style-type: none;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
 }
 
-footer img{
-    width:50;
-    height:50px;
+footer img {
+    width: 50;
+    height: 50px;
     padding: 10px;
 }
-
-footer p {display: flex}

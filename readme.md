@@ -30,8 +30,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+-dit ging goed & dit was lastig-
+**Goed** 
+Ik ben verder gekomen met de css van mijn website en ik kan nu wat duidelijker laten zien wat mijn concept is voor de website
+
+**Lastig** 
+Er zijn nog steeds veel problemen met de css,specifiek heb ik bij het positioneren van elementen nog veel problemen.
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent-
+![Liedje pagina](images/week_4-5/proces1.png)
+![Artiest pagina](images/week_4-5/proces2.png)
+
+### Codepen opdrachten
+**Grid**
+https://codepen.io/Aaronsmits300/pen/WNwYXeY
+https://codepen.io/Aaronsmits300/pen/YzqdNKN
+
+**Media**
+https://codepen.io/Aaronsmits300/pen/ExKrvqE
+https://codepen.io/Aaronsmits300/pen/xxVMXYM
+
+**Animaties**
+https://codepen.io/Aaronsmits300/pen/OJNqKzB
+https://codepen.io/Aaronsmits300/pen/XWdQbpe
 
 
 ## Voortgang 1 (week 3)
@@ -39,14 +64,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
-**Goed** Ik heb zelf weinig moeite gehad met de html tot nu toe, ik heb redelijk veel kennis over html en het is minder gecompliceerd.
+**Goed** 
+Ik heb zelf weinig moeite gehad met de html tot nu toe, ik heb redelijk veel kennis over html en het is minder gecompliceerd.
 
-**Lastig** Ik heb zelf erg moeite gehad met flexbox te gebruiken en te beginne met mijn content te organiseren
+**Lastig** 
+Ik heb zelf erg moeite gehad met flexbox te gebruiken en te beginne met mijn content te organiseren
 
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
+![Liedje pagina](images/week_1-3/proces1.png)
+![Artiest pagina](images/week_1-3/proces2.png)
+
+### Codepen opdrachten
+**Positionering**
+https://codepen.io/Aaronsmits300/pen/PoNQpGX
+
+**flexbox**
+https://codepen.io/Aaronsmits300/pen/OJNvbML
+https://codepen.io/Aaronsmits300/pen/abNYKgP
+
+**Javascript**
+https://codepen.io/Aaronsmits300/pen/eYZrQbb
+https://codepen.io/Aaronsmits300/pen/yLOEqKp
 
 ### Agenda voor meeting
 
@@ -73,29 +114,29 @@ https://genius.com/artists/Thundercat
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/genius1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/genius2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniustelefoon2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/genius1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/genius2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniustelefoon1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniustelefoon2.png)
 
 
 
 **Breakdown-schets(en):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniusbreakdown1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniusbreakdown2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniusbreakdowntelefoon1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/geniusbreakdowntelefoon2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniusbreakdown1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniusbreakdown2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniusbreakdowntelefoon1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/week_1-3/geniusbreakdowntelefoon2.png)
 
 
 **Eerste schetsen van website**.
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets1.jpg)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets2.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/schets1.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/schets2.jpg)
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/uitlegwebsite1.png)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/uitlegwebsite2.png)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown1.png)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown2.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/uitlegwebsite1.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/uitlegwebsite2.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/breakdown1.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/week_1-3/breakdown2.png)
 
 
 
