@@ -24,7 +24,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+
+**Goed** 
+Het is mij gelukt om verder te komen met de algemene vormgeving van de website en ik heb wat meer kunnen experimenteren met grids waardoor ik een beter begrip heb over hoe grids werken
+
+**Lastig** 
+DE javascript microinteractie was veel moeilijker te programmeren dan ik had verwacht, ik had wel een redelijk goed idee hoe ik moest beginnen maar ik realizeerde dat ik minder kennis had over javascript had dan ik dacht
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent-
+![Liedje pagina](images/week_4-5/proces1.png)
+![Artiest pagina](images/week_4-5/proces2.png)
+
+### Codepen opdrachten
+**Animaties**
 
 
 
@@ -33,11 +48,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+
 **Goed** 
-Ik ben verder gekomen met de css van mijn website en ik kan nu wat duidelijker laten zien wat mijn concept is voor de website
+Ik ben verder gekomen met de css van mijn website en ik kan nu wat duidelijker laten zien wat mijn concept is voor de website.
 
 **Lastig** 
-Er zijn nog steeds veel problemen met de css,specifiek heb ik bij het positioneren van elementen nog veel problemen.
+Er zijn nog steeds veel problemen met de css, specifiek heb ik bij het positioneren van elementen nog veel problemen.
 
 **Screenshot(s):**
 
@@ -64,11 +80,12 @@ https://codepen.io/Aaronsmits300/pen/XWdQbpe
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+
 **Goed** 
 Ik heb zelf weinig moeite gehad met de html tot nu toe, ik heb redelijk veel kennis over html en het is minder gecompliceerd.
 
 **Lastig** 
-Ik heb zelf erg moeite gehad met flexbox te gebruiken en te beginne met mijn content te organiseren
+Ik heb zelf erg moeite gehad met flexbox te gebruiken en te beginnen met mijn content te organiseren
 
 
 **Screenshot(s):**

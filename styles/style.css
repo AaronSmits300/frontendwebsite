@@ -19,14 +19,17 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    align-items: center
+    align-items: center;
+    z-index: 1;
+
 }
 
 #intro img {
-    width: 50%
+    width: 50%;
+    z-index: 1;
 }
 
-#intro input {}
+#intro a:hover {text-decoration: underline}
 
 nav ul {
     position: fixed;
@@ -38,27 +41,36 @@ nav ul {
     color: white;
     width: 100%;
     padding-left: 0;
-
+    z-index: 1;
 }
 
 nav li {
     padding: 10px;
 }
 
-/*main*/
-main {
-    margin: 2.5em
+nav a:hover{
+    color:#ffff64
 }
+
+/*media*/
+
 
 /*liedje*/
+
+
 #liedje {
     display: grid;
-    grid-auto-columns: 14em 15fr;
+grid-template-columns: 50% ;
+    grid-gap: 10px;
     background: rgb(226, 200, 115);
     background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
-    padding-top: 30px
+    padding:2.5em 2.5em 1em 2.5em;
+    padding-top: 30px;
 }
 
+#liedje h1{
+    padding-top: 3em
+}
 #liedje p {
     grid-column-start: 2
 }
@@ -70,16 +82,20 @@ main {
 #liedje img {
     display: block;
     position: relative;
-    right: 1em;
     max-width: 13em;
-    min-height: 1em;
-    top: 3em;
+    top: 4em;
     border: solid .25em white;
 }
 
 #songtekst p {
     padding-left: 25%;
     padding-right: 25%
+}
+
+#about-liedje {
+    padding: 2.5em 2.5em;
+    text-align: center;
+
 }
 
 #about-liedje {
@@ -90,30 +106,50 @@ main {
 #tracklist {
     background: rgb(226, 200, 115);
     background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
-    align-content: center
+    padding: 2.5em;
+    display: grid;
+    grid-template-columns: 10em 10em;
+    grid-template-rows: 2em 6em 34em ;
+    justify-content: center;
 }
 
 #tracklist img {
-    display: block;
-    text-align: center;
-    width: 20%
+    position: relative;
+    height: 7em;
+    grid-column-start: 1
+}
+
+#tracklist p:first-of-type{
+    grid-column-start: 2;
+    grid-row-start: 1
+}
+
+#tracklist p:last-of-type{
+    grid-column-start: 2;
+    grid-row-start: 2
+}
+
+#tracklist ol{grid-row-start: 3;
+    justify-content: center;
 }
 
 #credits {
     background: rgb(226, 200, 115);
     background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+    padding: 2.5em
+
 }
 
 #comments {
     display: inline-block;
-    vertical-align: middle;
+    padding: 2.5em;
 }
 
 #comments img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right:10px
+    margin-right: 10px
 }
 
 .commentgebruiker {
@@ -123,6 +159,11 @@ main {
     flex-wrap: wrap;
 }
 
+#comments button{
+    padding: 10px;    
+}
+
+
 /*artiest*/
 #artiest {
     background: linear-gradient(0deg, rgba(0, 0, 0, 225), rgba(0, 0, 0, 0)) fixed, url(../images/artiest/thundercat.jpg);
@@ -131,7 +172,8 @@ main {
 #artiest {
     color: white;
     padding-bottom: 10px;
-        margin-bottom: 20px
+    margin-bottom: 20px;
+    padding:2.5em
 }
 
 #artiest img {
@@ -139,6 +181,14 @@ main {
     margin-top: 3em;
     border: solid .25em white;
     border-radius: 100% 100% 100% 100%
+}
+
+#about{
+    padding:2.5em
+}
+
+#liedjes{
+    padding:2.5em
 }
 
 #liedjes ul {
@@ -163,6 +213,10 @@ main {
 #liedjes li:hover {
     background-color: whitesmoke;
     cursor: pointer;
+}
+
+#albums{
+    padding:2.5em
 }
 
 #albums ul {
@@ -195,6 +249,10 @@ main {
 #albums li:hover {
     background-color: whitesmoke;
     cursor: pointer;
+}
+
+#scholars{    
+    padding:2.5em
 }
 
 #scholars ul {
@@ -267,3 +325,23 @@ footer img {
     height: 50px;
     padding: 10px;
 }
+
+/*#media*/
+@media (min-width:60em){
+    #about-liedje {padding: 1em 6em 1em 6em;}
+    #tracklist{padding: 1em 6em 1em 6em;}
+    #credits{padding: 1em 6em 1em 6em;}
+    #comments {padding: 1em 6em 1em 6em;}
+}
+
+/*#js*/
+
+.verstopdeorigineleknop button#expandcomments{display: none}
+
+.extracomments{display: none}
+
+.toonextracomments .extracomments{display: block}
+
+
+
+
