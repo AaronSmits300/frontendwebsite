@@ -27,20 +27,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Goed** 
-Het is mij gelukt om verder te komen met de algemene vormgeving van de website en ik heb wat meer kunnen experimenteren met grids waardoor ik een beter begrip heb over hoe grids werken
+Het is mij gelukt om verder te komen met de algemene vormgeving van de website en ik heb wat meer kunnen experimenteren met grids waardoor ik een beter begrip heb over hoe grids werken.
 
 **Lastig** 
-DE javascript microinteractie was veel moeilijker te programmeren dan ik had verwacht, ik had wel een redelijk goed idee hoe ik moest beginnen maar ik realizeerde dat ik minder kennis had over javascript had dan ik dacht
+De javascript microinteractie was veel moeilijker te programmeren dan ik had verwacht, ik had wel een redelijk goed idee hoe ik moest beginnen maar ik realizeerde dat ik minder kennis had over javascript had dan ik dacht.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
-![Liedje pagina](images/week_4-5/proces1.png)
-![Artiest pagina](images/week_4-5/proces2.png)
+![Liedje pagina](images/week_6/proces1.png)
+![Artiest pagina](images/week_6/proces2.png)
 
 ### Codepen opdrachten
-**Animaties**
-
+**Toegankelijkheid**
+https://codepen.io/Aaronsmits300/pen/zYqgeox
 
 
 ## Voortgang 2 (week 5)
