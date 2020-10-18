@@ -2,346 +2,603 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: sans-serif;
+	margin: 0;
+	font-family: sans-serif;
 }
 
 /*header*/
 #intro {
-    position: fixed;
-    background-color: #ffff64;
-    top: 0;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    z-index: 1;
+	position: fixed;
+	background-color: #ffff64;
+	top: 0;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+	z-index: 1;
+}
 
+#intro input {
+	width: 30%
 }
 
 #intro img {
-    width: 50%;
-    z-index: 1;
+	width: 8em;
+	z-index: 1;
 }
 
-#intro a:hover {text-decoration: underline}
+#intro a:hover {
+	text-decoration: underline
+}
 
 nav ul {
-    position: fixed;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    top: 28px;
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding-left: 0;
-    z-index: 1;
+	position: fixed;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	top: 28px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding-left: 0;
+	z-index: 1;
 }
 
 nav li {
-    padding: 10px;
+	padding: 10px;
 }
 
-nav a:hover{
-    color:#ffff64
+nav a:hover {
+	color: #ffff64
 }
 
-/*media*/
+/*mail*/
 
 
 /*liedje*/
 
 
 #liedje {
-    display: grid;
-grid-template-columns: 50% ;
-    grid-gap: 10px;
-    background: rgb(226, 200, 115);
-    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
-    padding:2.5em 2.5em 1em 2.5em;
-    padding-top: 30px;
+	display: grid;
+	grid-template-columns: 25%;
+	grid-template-rows: 5em;
+	grid-gap: 10px;
+	background: rgb(226, 200, 115);
+	background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+	padding: 2.5em 1em 1em 1em;
+	margin-top: 30px;
+	justify-content: center
 }
 
-#liedje h1{
-    padding-top: 3em
+#liedje h1 {
+	grid-column-start: 2
 }
+
 #liedje p {
-    grid-column-start: 2
+	grid-column-start: 2
 }
 
 #liedje a {
-    grid-column-start: 2
+	grid-column-start: 2
 }
 
 #liedje img {
-    display: block;
-    position: relative;
-    max-width: 13em;
-    top: 4em;
-    border: solid .25em white;
+	display: block;
+	position: relative;
+	width: 100%;
+	top: 4em;
+	border: solid .25em white;
 }
+
 
 #songtekst p {
-    padding-left: 25%;
-    padding-right: 25%
+	padding-left: 25%;
+	padding-right: 25%
 }
 
 #about-liedje {
-    padding: 2.5em 2.5em;
-    text-align: center;
+	padding: 2.5em 2.5em;
+	text-align: center;
+}
 
+#about-liedje img {
+	max-width: 100%
 }
 
 #about-liedje {
-    background: rgb(226, 200, 115);
-    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+	background: rgb(226, 200, 115);
+	background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
 }
 
 #tracklist {
-    background: rgb(226, 200, 115);
-    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
-    padding: 2.5em;
-    display: grid;
-    grid-template-columns: 10em 10em;
-    grid-template-rows: 2em 6em 34em ;
-    justify-content: center;
+	background: rgb(226, 200, 115);
+	background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+	padding: 2.5em;
+}
+
+.tracklist {
+	display: grid;
+	grid-template-rows: 2em 6em;
+	justify-content: center;
+	grid-gap: 20px
 }
 
 #tracklist img {
-    position: relative;
-    height: 7em;
-    grid-column-start: 1
+	position: relative;
+	height: 7em;
+	grid-column-start: 1
 }
 
-#tracklist p:first-of-type{
-    grid-column-start: 2;
-    grid-row-start: 1
+#tracklist p:first-of-type {
+	grid-column-start: 2;
+	grid-row-start: 1
 }
 
-#tracklist p:last-of-type{
-    grid-column-start: 2;
-    grid-row-start: 2
+#tracklist p:last-of-type {
+	grid-column-start: 2;
+	grid-row-start: 2
 }
 
-#tracklist ol{grid-row-start: 3;
-    justify-content: center;
+#tracklist ol {
+	column-count: 1;
+	display: block;
+	justify-content: center;
 }
+
+#tracklist li {
+	line-height: 2em;
+	margin: 6px
+}
+
 
 #credits {
-    background: rgb(226, 200, 115);
-    background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
-    padding: 2.5em
-
+	background: rgb(226, 200, 115);
+	background: linear-gradient(90deg, rgba(226, 200, 115, 1) 0%, rgba(187, 160, 82, 1) 100%);
+	padding: 2.5em;
+	text-align: center;
 }
 
+#credits img {
+	justify-content: center;
+	position: relative;
+	max-width: 100%;
+}
+
+
 #comments {
-    display: inline-block;
-    padding: 2.5em;
+	display: inline-block;
+	padding: 2.5em;
 }
 
 #comments img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px
 }
 
 .commentgebruiker {
-    display: flex;
-    padding: 10px;
-    flex-grow: 1;
-    flex-wrap: wrap;
+	display: flex;
+	padding: 10px;
+	flex-grow: 1;
+	flex-wrap: wrap;
 }
 
-#comments button{
-    padding: 10px;    
+#comments button {
+	padding: 10px;
 }
 
 
 /*artiest*/
 #artiest {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 225), rgba(0, 0, 0, 0)) fixed, url(../images/artiest/thundercat.jpg);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 225), rgba(0, 0, 0, 0)) fixed, url(../images/artiest/thundercat.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #artiest {
-    color: white;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    padding:2.5em
+	color: white;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	padding: 2.5em
 }
 
 #artiest img {
-    width: 15em;
-    margin-top: 3em;
-    border: solid .25em white;
-    border-radius: 100% 100% 100% 100%
+	max-width: 75%;
+	margin-top: 3em;
+	border: solid .50em white;
+	border-radius: 100% 100% 100% 100%
 }
 
-#about{
-    padding:2.5em
+/**/
+#about {
+	margin: 2.5em;
+	padding: 1em;
+	background-color: white;
 }
 
-#liedjes{
-    padding:2.5em
+#artiestpagina {
+	background-color: #f7f7f7;
+}
+
+#videos {
+	margin: 2.5em;
+	padding: 1em;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 13px;
+	justify-content: center
+}
+
+#videos img {
+	display: block;
+	width: 100%
+}
+
+.video_container {
+	padding: 10px;
+}
+
+#liedjes {
+	padding: 1em;
 }
 
 #liedjes ul {
-    list-style-type: none;
-    width: 500px;
-    padding-left: 0
-}
-
-
-#liedjes li img {
-    margin: 10px;
-    width: 100px
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	column-count: 2;
 }
 
 #liedjes li {
-    padding: 10px;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 100%;
 }
+
+#liedjes li img {
+	margin: 8px;
+	max-width: 100px;
+	float: left
+}
+
 
 #liedjes li:hover {
-    background-color: whitesmoke;
-    cursor: pointer;
+	background-color: lightgrey;
+	cursor: pointer;
 }
 
-#albums{
-    padding:2.5em
-}
-
-#albums ul {
-    list-style-type: none;
-    width: 500px;
-    display: flex;
-    padding-left: 0;
+#albums {
+	padding: 1em
 }
 
 #albums ul {
-    flex-wrap: wrap
+	list-style-type: none;
+	display: flex;
+	padding-left: 0;
+	flex-wrap: wrap;
 }
 
-#albums li img {
-    margin: 10px;
-    width: 100px
+
+.albumblok {
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
 }
 
-
-#albums li {
-    padding: 10px;
-    background-color: white;
-    width: 60%;
-    height: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1
+.albumblok img {
+	margin: 8px;
+	width: 100px;
+	display: flex;
 }
 
 #albums li:hover {
-    background-color: whitesmoke;
-    cursor: pointer;
+	background-color: whitesmoke;
 }
 
-#scholars{    
-    padding:2.5em
+#scholars {
+	margin: 2.5em;
+	padding: 1em;
+	background-color: white
 }
 
 #scholars ul {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 0
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 0
 }
 
 #scholars li {
-    padding: 10px;
+	padding: 10px;
 }
 
-#scholars li p {
-    padding: 120px
+#sholar {
+	display: flex
 }
 
 #scholars img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
 }
 
 #buttons {
-    display: flex;
+	display: flex;
+	flex-wrap: wrap
 }
 
-#buttons a {
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 20px 10px;
-    background: #3B5998;
-    color: white;
+#buttons button {
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 10px;
+	background: #3B5998;
+	color: white;
 }
 
-#buttons a:first-of-type {
-    background-color: #3B5998
+#buttons img {
+	width: 30px;
+	height: 30px
 }
 
-#buttons a:nth-child(2) {
-    background-color: #55ACEE;
+.socialbutton {}
+
+.socialbutton a {
+	color: white;
 }
 
-#buttons a:last-of-type {
-    background-color: black
+
+#buttons button:first-of-type {
+	background-color: #3B5998
+}
+
+#buttons button:nth-child(2) {
+	background-color: #55ACEE;
+}
+
+#buttons button:last-of-type {
+	background-color: black
 }
 
 
 /*footer*/
 footer {
-    padding: 2.5em;
-    color: white;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
+	padding: 2.5em;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
 footer h1 {}
 
 footer ul {
-    list-style-type: none;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
+	list-style-type: none;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+
+footer li {
+	line-height: 2em
 }
 
 footer img {
-    width: 50;
-    height: 50px;
-    padding: 10px;
+	width: 50;
+	height: 50px;
+	padding: 10px;
 }
+
+
+
+
 
 /*#media*/
-@media (min-width:60em){
-    #about-liedje {padding: 1em 6em 1em 6em;}
-    #tracklist{padding: 1em 6em 1em 6em;}
-    #credits{padding: 1em 6em 1em 6em;}
-    #comments {padding: 1em 6em 1em 6em;}
+@media (min-width:660px) {
+	main {
+		font-size: 1em
+	}
+
+	/*#liedjepagina*/
+	#liedje img {
+		max-width: 200px;
+		margin-top: -4em
+	}
+
+	#liedje {
+		padding: 3em 6em 1em 6em;
+		margin-top: 30px;
+
+	}
+
+	#about-liedje {
+		padding: 1em 6em 1em 6em;
+	}
+
+	#liedje img {
+		width: 500px
+	}
+
+	#tracklist {
+		padding: 1em 6em 1em 6em;
+	}
+
+	#tracklist ol {
+		column-count: 2;
+	}
+
+	#credits {
+		padding: 1em 6em 1em 6em;
+	}
+
+	#comments {
+		padding: 1em 6em 1em 6em;
+	}
+
+	/*artiest*/
+	#artiestpagina {
+		display: grid;
+		align-content: center;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: 500px auto 100px auto;
+	}
+
+	#artiest {
+		padding: 1em 6em 1em 6em;
+	}
+
+	#artiest img {
+		width: 300px;
+	}
+
+	#about {
+		padding: 1em 2em 1em 2em;
+		grid-row: 2/4;
+		grid-column: 1
+	}
+
+	#videos {
+		padding: 1em 2em 1em 2em;
+		grid-column: 1;
+		grid-row: 1
+	}
+
+	#liedjes {
+		padding: 1em 1em;
+		grid-column: 2;
+		grid-row: 1/2
+	}
+
+	#liedjes li {
+		padding: 10px;
+		margin: 10px;
+		background-color: white;
+		width: 43%
+	}
+
+	#liedjes li img {
+		width: 100px;
+	}
+
+	#albums {
+		padding: 1em 1em;
+		grid-column: 2;
+		grid-row: 3/4
+	}
+
+	.albumblok {
+		background-color: white;
+		width: 40%;
+		justify-content: center;
+		text-align: center;
+		font-size: 10px
+	}
+
+
+	#scholars {
+		padding: 1em 2em 1em 2em;
+		grid-column: 1;
+		grid-row: 4/5
+	}
+
+	#buttons {
+		padding: 1em 6em 1em 6em;
+		grid-column-start: 1;
+		grid-row: 7
+	}
+
+	@media (max-width:660px) {
+		body {
+			font-size: 13px
+		}
+	}
+
+	@media (max-width:960px) {
+		#artiestpagina {
+			display: grid;
+			align-content: center;
+			grid-template-columns: 1fr 2fr;
+			grid-template-rows: 500px 700px 500px 670px;
+		}
+
+		#about {
+			padding: 1em 2em 1em 2em;
+			grid-row: 2;
+			grid-column: 1
+		}
+
+		#videos {
+			padding: 1em 2em 1em 2em;
+			grid-column: 1;
+			grid-row: 1
+		}
+
+		#liedjes {
+			padding: 1em 1em;
+			grid-column: 2;
+			grid-row: 1/3
+		}
+
+		#liedjes li {
+			padding: 10px;
+			margin: 10px;
+			background-color: white;
+			width: 43%
+		}
+
+		#liedjes li img {
+			width: 100px;
+		}
+
+		#albums {
+			padding: 1em 1em;
+			grid-column: 2;
+			grid-row: 4
+		}
+
+		#scholars {
+			padding: 1em 2em 1em 2em;
+			grid-column: 1;
+			grid-row: 3/5
+		}
+
+		#buttons {
+			padding: 1em 6em 1em 6em;
+			grid-column-start: 1;
+			grid-row: 6
+		}
+
+		#liedjes li {
+			padding: 10px;
+			margin: 10px;
+			background-color: white;
+			width: 100%
+		}
+	}
+
+	/*#js*/
+.verstopdeorigineleknop button#expandcomments {
+	display: none
 }
 
-/*#js*/
+.extracomments {
+	display: none
+}
 
-.verstopdeorigineleknop button#expandcomments{display: none}
-
-.extracomments{display: none}
-
-.toonextracomments .extracomments{display: block}
-
-
-
-
+.toonextracomments .extracomments {
+	display: block
+}
