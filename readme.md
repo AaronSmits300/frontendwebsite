@@ -8,13 +8,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://genius.com/artists/Thundercat
 2. https://genius.com/Thundercat-them-changes-lyrics
-3. -...-
 
-
+### Bronnen voor opdracht
+UL/OL splitsen in 2: stackoverflow.com/questions/43726696/splitting-list-of-items-in-two-columns-with-css
+Gradient background afbeelding: //codepen.io/manabox/pen/JoZeaX
+Background afbeelding css: developer.mozilla.org/en-US/docs/Web/CSS/background-size
+Hulp bij grids: smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/
+Social media buttons: w3schools.com/howto/howto_css_social_media_buttons.asp
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+**Goed** 
+Ik denk dat het mij wel redelijk is gelukt om mijn website zo responsive mogelijk te maken, afbeeldingen bewegen mee met de pagina en alle tekst is altijd nog goed te lezen.
+
+**Lastig** 
+De display grid ontwerpen van een van de artiestpagina was wat moeilijker dan ik had gedacht, ik probeerde gebruik te maken van minmax maar het leek alsof het niet werkte, dus ik moest improviseren.
+Ik had uiteindlijk ook veel problemen met de vormgeving aanpassen van wat kleinere objecte zoals zekere li elementen of boxes.
+
 
 **Screenshot(s):**
 
