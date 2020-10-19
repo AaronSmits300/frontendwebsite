@@ -24,10 +24,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-**Goed** 
+**Goed**: 
 Ik denk dat het mij wel redelijk is gelukt om mijn website zo responsive mogelijk te maken, afbeeldingen bewegen mee met de pagina en alle tekst is altijd nog goed te lezen.
 
-**Lastig** 
+**Lastig**: 
 De display grid ontwerpen van een van de artiestpagina was wat moeilijker dan ik had gedacht, ik probeerde gebruik te maken van minmax maar het leek alsof het niet werkte, dus ik moest improviseren.
 Ik had uiteindlijk ook veel problemen met de vormgeving aanpassen van wat kleinere objecte zoals zekere li elementen of boxes.
 
@@ -43,10 +43,10 @@ Ik had uiteindlijk ook veel problemen met de vormgeving aanpassen van wat kleine
 
 -dit ging goed & dit was lastig-
 
-**Goed** 
+**Goed**: 
 Het is mij gelukt om verder te komen met de algemene vormgeving van de website en ik heb wat meer kunnen experimenteren met grids waardoor ik een beter begrip heb over hoe grids werken.
 
-**Lastig** 
+**Lastig**: 
 De javascript microinteractie was veel moeilijker te programmeren dan ik had verwacht, ik had wel een redelijk goed idee hoe ik moest beginnen maar ik realizeerde dat ik minder kennis had over javascript had dan ik dacht.
 
 **Screenshot(s):**
@@ -66,10 +66,10 @@ https://codepen.io/Aaronsmits300/pen/zYqgeox
 
 -dit ging goed & dit was lastig-
 
-**Goed** 
+**Goed**: 
 Ik ben verder gekomen met de css van mijn website en ik kan nu wat duidelijker laten zien wat mijn concept is voor de website.
 
-**Lastig** 
+**Lastig**: 
 Er zijn nog steeds veel problemen met de css, specifiek heb ik bij het positioneren van elementen nog veel problemen.
 
 **Screenshot(s):**
@@ -98,10 +98,10 @@ https://codepen.io/Aaronsmits300/pen/XWdQbpe
 
 -dit ging goed & dit was lastig-
 
-**Goed** 
+**Goed**: 
 Ik heb zelf weinig moeite gehad met de html tot nu toe, ik heb redelijk veel kennis over html en het is minder gecompliceerd.
 
-**Lastig** 
+**Lastig**: 
 Ik heb zelf erg moeite gehad met flexbox te gebruiken en te beginnen met mijn content te organiseren
 
 
