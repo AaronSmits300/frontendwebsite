@@ -9,12 +9,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://genius.com/artists/Thundercat
 2. https://genius.com/Thundercat-them-changes-lyrics
 
-### Bronnen voor opdracht
-UL/OL splitsen in 2: stackoverflow.com/questions/43726696/splitting-list-of-items-in-two-columns-with-css
-Gradient background afbeelding: //codepen.io/manabox/pen/JoZeaX
-Background afbeelding css: developer.mozilla.org/en-US/docs/Web/CSS/background-size
-Hulp bij grids: smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/
-Social media buttons: w3schools.com/howto/howto_css_social_media_buttons.asp
+## Bronnen voor opdracht
+1. UL/OL splitsen in 2: https://stackoverflow.com/questions/43726696/splitting-list-of-items-in-two-columns-with-css
+
+2. Gradient background afbeelding: https://codepen.io/manabox/pen/JoZeaX
+
+3. Background afbeelding css: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+4. Hulp bij grids: https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/
+
+5. Social media buttons: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 
 ## Eindgesprek (week 7/8)
 
