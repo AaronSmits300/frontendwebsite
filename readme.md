@@ -30,7 +30,8 @@ Ik had uiteindlijk ook veel problemen met de vormgeving aanpassen van wat kleine
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+![Liedje pagina](images/week_8/proces1.png)
+![Artiest pagina](images/week_8/proces2.png)
 
 
 ## Voortgang 3 (week 6)
