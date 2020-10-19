@@ -23,6 +23,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+
 **Goed** 
 Ik denk dat het mij wel redelijk is gelukt om mijn website zo responsive mogelijk te maken, afbeeldingen bewegen mee met de pagina en alle tekst is altijd nog goed te lezen.
 
