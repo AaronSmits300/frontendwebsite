@@ -175,14 +175,23 @@ nav a:hover {
 	padding: 2.5em;
 }
 
+#comments input {
+	width: 100%;
+	padding: 10px
+}
+
 #comments img {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	margin-right: 10px
 }
-#comments ul{list-style-type: none;
-padding-left: 0}
+
+#comments ul {
+	list-style-type: none;
+	padding-left: 0
+}
+
 .commentgebruiker {
 	padding: 10px;
 	flex-wrap: wrap;
@@ -276,6 +285,20 @@ padding-left: 0}
 	cursor: pointer;
 }
 
+#liedjes #allsongs {
+	padding: 10px;
+	margin: 20px 10px;
+	background: white;
+	color: grey;
+	display: block;
+	width: 100%%
+}
+
+#liedjes #allsongs:hover {
+	color: black;
+	background-color: lightgray
+}
+
 #albums {
 	padding: 1em
 }
@@ -287,6 +310,19 @@ padding-left: 0}
 	flex-wrap: wrap;
 }
 
+#albums #allalbums {
+	padding: 10px;
+	margin: 20px 10px;
+	background: white;
+	color: grey;
+	display: block;
+	width: 100%%
+}
+
+#albums #allalbums:hover {
+	color: black;
+	background-color: lightgray
+}
 
 .albumblok {
 	display: flex;
@@ -305,7 +341,7 @@ padding-left: 0}
 }
 
 #albums li:hover {
-	background-color: whitesmoke;
+	background-color: lightgray;
 }
 
 #scholars {
@@ -332,7 +368,9 @@ padding-left: 0}
 	margin: 3px
 }
 
-li.scholar b{display: block}
+li.scholar b {
+	display: block
+}
 
 #buttons {
 	display: flex;
@@ -363,6 +401,7 @@ li.scholar b{display: block}
 #buttons a:first-of-type {
 	background-color: #3B5998
 }
+
 #buttons a:first-of-type:hover {
 	background-color: #193265
 }
@@ -370,6 +409,7 @@ li.scholar b{display: block}
 #buttons a:nth-child(2) {
 	background-color: #55ACEE;
 }
+
 #buttons a:nth-child(2):hover {
 	background-color: #147ac8;
 }
@@ -377,6 +417,7 @@ li.scholar b{display: block}
 #buttons a:last-of-type {
 	background-color: black
 }
+
 #buttons a:last-of-type:hover {
 	background-color: grey
 }
@@ -430,6 +471,7 @@ footer img {
 		font-size: 12px
 	}
 }
+
 @media (min-width:660px) {
 	main {
 		font-size: 1em
@@ -438,7 +480,7 @@ footer img {
 	/*#liedjepagina*/
 	#liedje img {
 		max-width: 250px;
-		top:1em;
+		top: 1em;
 		right: 120px
 	}
 
@@ -477,7 +519,7 @@ footer img {
 		display: grid;
 		align-content: center;
 		grid-template-columns: 1fr 2fr;
-		grid-template-rows: 500px auto 100px auto;
+		grid-template-rows: 500px auto 60px auto;
 	}
 
 	#artiest {
@@ -517,6 +559,11 @@ footer img {
 		width: 100px;
 	}
 
+	#liedjes #allsongs {
+		display: block;
+		width: 88%
+	}
+
 	#albums {
 		padding: 1em 1em;
 		grid-column: 2;
@@ -531,6 +578,10 @@ footer img {
 		font-size: 10px
 	}
 
+	#albums #allalbums {
+		display: block;
+		width: 82%
+	}
 
 	#scholars {
 		padding: 1em 2em 1em 2em;
@@ -544,12 +595,15 @@ footer img {
 		grid-row: 7
 	}
 
+	/*media font*/
+
 	@media (max-width:660px) {
 		body {
 			font-size: 13px
 		}
 	}
 
+	/*media max*/
 	@media (max-width:960px) {
 		#artiestpagina {
 			display: grid;
